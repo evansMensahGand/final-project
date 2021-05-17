@@ -1,0 +1,93 @@
+/* create account starts here */
+
+.create-account {
+  width: 50%;
+  height: 65vmin;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  background-color: #ff3a3a;
+  border-style: solid;
+  border-radius: 25px;
+  position: relative;
+}
+
+.create-account.pageOff{
+  display: none;
+}
+
+.account-creation {
+  width: 90%;
+  height: 48vmin;
+  background-color: #fff;
+  font-size: 17px;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  border: none;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  margin-right: 1.1rem;
+  margin-top: 2rem;
+
+}
+
+.account-creation input {
+  width: 100%;
+  background: #282b3a;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.two-sides {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.s-up {
+  width: 15%;
+  position: absolute;
+  right: 10%;
+}
+
+.account-creation button {
+  width: 30%;
+  height: 30px;
+  background-color: #ff3a3a;
+  border-radius: 10px;
+  position: absolute;
+  color: #fff;
+  left: 5%;
+  font-size: large;
+}
+
+.individual-sections {
+  margin: 10px;
+}
+
+.individual-sections p {
+  /* margin-top: 2rem; */
+}
+.last-one p {
+  margin-top: 0;
+}
+
+.copyright {
+  width: 40%;
+  height: 40px;
+  margin: auto;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright-end {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 2px;
+}
